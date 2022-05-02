@@ -24,3 +24,6 @@
     	<property name="maxInMemorySize" value="10485756"></property>
     </bean>
 </beans>
+
+<!-- servlet-context.xml. 파일은 mvc model의 view와 관련된 객체를 정의한다. url과 관련된 controller
+annotation, viewresolver 등의 설정이 이 파일에 포함이 된다. 프론트 엔드 설정 파일이라고 생각하면 편하다. -->

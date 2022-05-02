@@ -51,3 +51,7 @@
   </description>
 
 </web-app>
+
+<!-- web.xml 파일은 톰캣과 같은 web application server(was)가 최초로 구동될 때, 각종 설정파일들을
+정의 해주는 파일이다. 즉 root-context.xml, servlet-context.xml 같은 설정 파일을 어디서 가져올 것인지
+설정해주는 설정을 위한 설정 파일이라고 생각하면 편하다. -->

@@ -31,3 +31,6 @@
     <context:component-scan base-package="com.example.sample"/>
 
 </beans>
+
+<!-- root-context.xml 파일은 mvc model의 model(데이터)와 관련된 객체를 정의한다. service, dao, database등..
+백엔드 설정파일이라고 생각하면 편함. -->
