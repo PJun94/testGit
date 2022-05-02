@@ -35,4 +35,17 @@ public class BoardMapperTest {
 		
 		log.info(board);
 	}
+	
+	@Test
+	public void testInsertSelectKey() {
+		
+		BoardVO board = new BoardVO();
+		board.setTitle("새로 작성하는 글");
+		board.setContent("새로 작성 내용");
+		board.setWriter("newbie");
+		
+		mapper.insertSelectKey(board);
+		
+		log.info(board); // bno=25가 결과로 나온다. 이는 시퀀스 값으로 환경마다 다른 값이 나옴(중복 없는 값을 위함)
+	}
 }
